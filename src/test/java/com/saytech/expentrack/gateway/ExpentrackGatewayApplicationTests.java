@@ -1,4 +1,4 @@
-package com.expentrack.expentrack_gateway;
+package com.saytech.expentrack.gateway;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

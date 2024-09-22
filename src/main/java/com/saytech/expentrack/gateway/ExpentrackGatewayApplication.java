@@ -1,4 +1,4 @@
-package com.expentrack.expentrack_gateway;
+package com.saytech.expentrack.gateway;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

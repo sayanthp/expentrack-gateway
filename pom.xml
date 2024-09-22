@@ -8,9 +8,9 @@
 		<version>3.3.4</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.expentrack</groupId>
-	<artifactId>gateway-service</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<groupId>com.saytech.expentrack</groupId>
+	<artifactId>expentrack-api-gateway</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
 	<name>expentrack-gateway</name>
 	<description>API Gateway for ExpenTrack application</description>
 	<url/>
@@ -42,8 +42,12 @@
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+			<version>4.1.3</version>
 		</dependency>
-
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
